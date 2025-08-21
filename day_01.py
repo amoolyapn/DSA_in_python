@@ -42,3 +42,5 @@ L=[]
 for i in range(50):
   print(i,sys.getsizeof(L))
   L.append(i)
+
+
