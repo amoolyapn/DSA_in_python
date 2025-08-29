@@ -9,4 +9,15 @@ print(list)
 
 
 
+#Selection - sort
+list=[67,5,35,6,2,3,8,16,9,1]
+n=len(list)
+for i in range(n-1):
+  min_index=i
+  for j in range(i+1,n):
+    if list[j] < list[min_index]:
+      min_index=j
+  list[i],list[min_index] = list[min_index],list[i]
+print(list)
+
 
